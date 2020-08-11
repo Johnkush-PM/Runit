@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryCurrency" isOneWay="false" inputName="" id="bfb6ab0f-9b03-43c6-9f6c-9714f21c9f58" bindingOperationName="CountryCurrency" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryCurrency" isOneWay="false" inputName="" id="bfb6ab0f-9b03-43c6-9f6c-9714f21c9f58" bindingOperationName="CountryCurrency" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="bfb6ab0f-9b03-43c6-9f6c-9714f21c9f58fileName">CountryCurrency</con:setting>
   </con:settings>
