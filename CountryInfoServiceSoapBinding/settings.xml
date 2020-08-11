@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" type="wsdl" soapVersion="1_1" name="CountryInfoServiceSoapBinding" id="ccf90998-6236-41c6-88f3-fcd2e95e13c3" definition="file:/C:/Users/ADMIN/Downloads/CountryInfoService%20(1).wsdl" bindingName="{http://www.oorsprong.org/websamples.countryinfo}CountryInfoServiceSoapBinding" anonymous="optional" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" type="wsdl" soapVersion="1_1" name="CountryInfoServiceSoapBinding" id="ccf90998-6236-41c6-88f3-fcd2e95e13c3" definition="file:/C:/Users/ADMIN/Downloads/CountryInfoService%20(1).wsdl" bindingName="{http://www.oorsprong.org/websamples.countryinfo}CountryInfoServiceSoapBinding" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="ccf90998-6236-41c6-88f3-fcd2e95e13c3fileName">CountryInfoServiceSoapBinding</con:setting>
   </con:settings>
