@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCountryNamesGroupedByContinent" isOneWay="false" inputName="" id="d1172870-a13a-4e94-a7a2-444ebeae02a0" bindingOperationName="ListOfCountryNamesGroupedByContinent" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCountryNamesGroupedByContinent" isOneWay="false" inputName="" id="d1172870-a13a-4e94-a7a2-444ebeae02a0" bindingOperationName="ListOfCountryNamesGroupedByContinent" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="d1172870-a13a-4e94-a7a2-444ebeae02a0fileName">ListOfCountryNamesGroupedByContinent</con:setting>
   </con:settings>

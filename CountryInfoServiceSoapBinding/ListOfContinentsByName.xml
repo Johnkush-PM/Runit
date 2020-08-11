@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfContinentsByName" isOneWay="false" inputName="" id="5f27fb5c-181b-40a0-802c-cf0815717484" bindingOperationName="ListOfContinentsByName" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfContinentsByName" isOneWay="false" inputName="" id="5f27fb5c-181b-40a0-802c-cf0815717484" bindingOperationName="ListOfContinentsByName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="5f27fb5c-181b-40a0-802c-cf0815717484fileName">ListOfContinentsByName</con:setting>
   </con:settings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryISOCode" isOneWay="false" inputName="" id="04cb3153-f7a6-467b-b879-20fb617cca88" bindingOperationName="CountryISOCode" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryISOCode" isOneWay="false" inputName="" id="04cb3153-f7a6-467b-b879-20fb617cca88" bindingOperationName="CountryISOCode" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="04cb3153-f7a6-467b-b879-20fb617cca88fileName">CountryISOCode</con:setting>
   </con:settings>

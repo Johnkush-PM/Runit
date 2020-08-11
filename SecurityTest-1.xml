@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:securityTest id="7484abb2-a789-4f83-bea2-2499e0dae2c6" testCaseId="5132f4d1-3722-4f3c-81c9-069a7d2fb634" name="SecurityTest 1" failSecurityTestOnScanErrors="true" xmlns:con="http://eviware.com/soapui/config">
+<con:securityTest testCaseId="5132f4d1-3722-4f3c-81c9-069a7d2fb634" name="SecurityTest 1" id="7484abb2-a789-4f83-bea2-2499e0dae2c6" failSecurityTestOnScanErrors="true" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="7484abb2-a789-4f83-bea2-2499e0dae2c6fileName">SecurityTest-1</con:setting>
   </con:settings>
   <con:testStepSecurityTest>
     <con:testStepId>605516e1-b8b0-4bc5-bdd2-1d8b0b966e70</con:testStepId>
-    <con:testStepSecurityScan type="SQLInjectionScan" name="SQL Injection" id="25061361-1c0d-4828-909e-71487879199d" applyForFailedStep="false" disabled="false" runOnlyOnce="true">
+    <con:testStepSecurityScan type="SQLInjectionScan" runOnlyOnce="true" name="SQL Injection" id="25061361-1c0d-4828-909e-71487879199d" disabled="false" applyForFailedStep="false">
       <con:settings/>
       <con:config xsi:type="con:SQLInjectionScan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <con:sqlInjectionStrings>' or '1'='1</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>'--</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>1'</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>admin'--</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>/*!10000%201/0%20*/</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>/*!10000 1/0 */</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>1/0</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>'%20o/**/r%201/0%20--</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>' o/**/r 1/0 --</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>;</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>'%20and%201=2%20--</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>' and 1=2 --</con:sqlInjectionStrings>
-        <con:sqlInjectionStrings>test�%20UNION%20select%201,%20@@version,%201,%201;�</con:sqlInjectionStrings>
         <con:sqlInjectionStrings>test� UNION select 1, @@version, 1, 1;�</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>test�%20UNION%20select%201,%20@@version,%201,%201;�</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>' and 1=2 --</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>'%20and%201=2%20--</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>;</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>' o/**/r 1/0 --</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>'%20o/**/r%201/0%20--</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>1/0</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>/*!10000 1/0 */</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>/*!10000%201/0%20*/</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>admin'--</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>1'</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>'--</con:sqlInjectionStrings>
+        <con:sqlInjectionStrings>' or '1'='1</con:sqlInjectionStrings>
       </con:config>
-      <con:assertion type="Sensitive Information Exposure" id="2ed0c4a8-590e-4652-ac62-e21ae6f6966d" name="Sensitive Information Exposure">
+      <con:assertion type="Sensitive Information Exposure" name="Sensitive Information Exposure" id="2ed0c4a8-590e-4652-ac62-e21ae6f6966d">
         <con:configuration/>
       </con:assertion>
-      <con:testStep xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-      <con:checkedParameters xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <con:parameters label="sCountryISOCode" parameterName="Request" xpath="declare namespace web='http://www.oorsprong.org/websamples.countryinfo';
-//web:CapitalCity[1]/web:sCountryISOCode[1]" checked="true"/>
+      <con:testStep/>
+      <con:checkedParameters>
+        <con:parameters xpath="declare namespace web='http://www.oorsprong.org/websamples.countryinfo'; //web:CapitalCity[1]/web:sCountryISOCode[1]" parameterName="Request" label="sCountryISOCode" checked="true"/>
       </con:checkedParameters>
-      <con:executionStrategy xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:executionStrategy>
         <con:strategy>ONE_BY_ONE</con:strategy>
         <con:delay>100</con:delay>
       </con:executionStrategy>

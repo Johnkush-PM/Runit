@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CapitalCity" isOneWay="false" inputName="" id="41114d83-8416-4ca2-b1cd-650bb35f924b" bindingOperationName="CapitalCity" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CapitalCity" isOneWay="false" inputName="" id="41114d83-8416-4ca2-b1cd-650bb35f924b" bindingOperationName="CapitalCity" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="41114d83-8416-4ca2-b1cd-650bb35f924bfileName">CapitalCity</con:setting>
   </con:settings>

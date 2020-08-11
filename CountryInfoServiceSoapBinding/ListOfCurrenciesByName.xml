@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCurrenciesByName" isOneWay="false" inputName="" id="f6c6989f-2a49-4334-8690-605fada713bc" bindingOperationName="ListOfCurrenciesByName" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCurrenciesByName" isOneWay="false" inputName="" id="f6c6989f-2a49-4334-8690-605fada713bc" bindingOperationName="ListOfCurrenciesByName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="f6c6989f-2a49-4334-8690-605fada713bcfileName">ListOfCurrenciesByName</con:setting>
   </con:settings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryName" isOneWay="false" inputName="" id="bad47619-45da-42db-bd96-208fd27c77f7" bindingOperationName="CountryName" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryName" isOneWay="false" inputName="" id="bad47619-45da-42db-bd96-208fd27c77f7" bindingOperationName="CountryName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="bad47619-45da-42db-bd96-208fd27c77f7fileName">CountryName</con:setting>
   </con:settings>

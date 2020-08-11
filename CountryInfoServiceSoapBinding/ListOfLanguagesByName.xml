@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfLanguagesByName" isOneWay="false" inputName="" id="b80b31d9-9d0c-4cf7-93dd-4041c796ad42" bindingOperationName="ListOfLanguagesByName" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfLanguagesByName" isOneWay="false" inputName="" id="b80b31d9-9d0c-4cf7-93dd-4041c796ad42" bindingOperationName="ListOfLanguagesByName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="b80b31d9-9d0c-4cf7-93dd-4041c796ad42fileName">ListOfLanguagesByName</con:setting>
   </con:settings>

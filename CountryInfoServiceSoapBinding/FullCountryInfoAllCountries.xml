@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="FullCountryInfoAllCountries" isOneWay="false" inputName="" id="9c51fa18-c546-43a4-be44-5293fba7893f" bindingOperationName="FullCountryInfoAllCountries" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="FullCountryInfoAllCountries" isOneWay="false" inputName="" id="9c51fa18-c546-43a4-be44-5293fba7893f" bindingOperationName="FullCountryInfoAllCountries" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="9c51fa18-c546-43a4-be44-5293fba7893ffileName">FullCountryInfoAllCountries</con:setting>
   </con:settings>

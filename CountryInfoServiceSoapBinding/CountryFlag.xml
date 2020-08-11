@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryFlag" isOneWay="false" inputName="" id="e942718b-c591-4101-b2c9-9931e1dba9a5" bindingOperationName="CountryFlag" anonymous="optional" action="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryFlag" isOneWay="false" inputName="" id="e942718b-c591-4101-b2c9-9931e1dba9a5" bindingOperationName="CountryFlag" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e942718b-c591-4101-b2c9-9931e1dba9a5fileName">CountryFlag</con:setting>
   </con:settings>
