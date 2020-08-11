@@ -19,5 +19,6 @@ CountryInfoServiceSoapBinding\ListOfCurrenciesByCode.xml
 CountryInfoServiceSoapBinding\ListOfCurrenciesByName.xml
 CountryInfoServiceSoapBinding\ListOfLanguagesByCode.xml
 CountryInfoServiceSoapBinding\ListOfLanguagesByName.xml
+SecurityTest-1.xml
 Sample_testSuite\Sample_testCase.xml
-TestSuite-1\TestCase-1.xml
+Sample_testCase-LoadTest.xml
