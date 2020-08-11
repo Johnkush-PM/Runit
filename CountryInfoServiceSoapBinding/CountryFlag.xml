@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="e942718b-c591-4101-b2c9-9931e1dba9a5" isOneWay="false" action="" name="CountryFlag" bindingOperationName="CountryFlag" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryFlag" isOneWay="false" inputName="" id="e942718b-c591-4101-b2c9-9931e1dba9a5" bindingOperationName="CountryFlag" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e942718b-c591-4101-b2c9-9931e1dba9a5fileName">CountryFlag</con:setting>
   </con:settings>
-  <con:call id="39f4a0bf-c3c5-44ef-a6c7-1af6b4499e09" name="CountryFlag Request">
+  <con:call name="CountryFlag Request" id="39f4a0bf-c3c5-44ef-a6c7-1af6b4499e09">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -19,6 +19,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryFlagRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryFlagRequest"/>
   </con:call>
 </con:operation>

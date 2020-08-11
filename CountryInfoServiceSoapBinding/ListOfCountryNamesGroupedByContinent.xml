@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="d1172870-a13a-4e94-a7a2-444ebeae02a0" isOneWay="false" action="" name="ListOfCountryNamesGroupedByContinent" bindingOperationName="ListOfCountryNamesGroupedByContinent" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCountryNamesGroupedByContinent" isOneWay="false" inputName="" id="d1172870-a13a-4e94-a7a2-444ebeae02a0" bindingOperationName="ListOfCountryNamesGroupedByContinent" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="d1172870-a13a-4e94-a7a2-444ebeae02a0fileName">ListOfCountryNamesGroupedByContinent</con:setting>
   </con:settings>
-  <con:call id="728dd434-d5bf-47b1-9105-0da7182a4f9f" name="ListOfCountryNamesGroupedByContinent Request">
+  <con:call name="ListOfCountryNamesGroupedByContinent Request" id="728dd434-d5bf-47b1-9105-0da7182a4f9f">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -17,6 +17,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesGroupedByContinentRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesGroupedByContinentRequest"/>
   </con:call>
 </con:operation>

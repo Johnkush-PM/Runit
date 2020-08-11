@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="f6c6989f-2a49-4334-8690-605fada713bc" isOneWay="false" action="" name="ListOfCurrenciesByName" bindingOperationName="ListOfCurrenciesByName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfCurrenciesByName" isOneWay="false" inputName="" id="f6c6989f-2a49-4334-8690-605fada713bc" bindingOperationName="ListOfCurrenciesByName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="f6c6989f-2a49-4334-8690-605fada713bcfileName">ListOfCurrenciesByName</con:setting>
   </con:settings>
-  <con:call id="02e76e55-74fa-4f55-9be9-c1c0bfcfedcc" name="ListOfCurrenciesByName Request">
+  <con:call name="ListOfCurrenciesByName Request" id="02e76e55-74fa-4f55-9be9-c1c0bfcfedcc">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -17,6 +17,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCurrenciesByNameRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCurrenciesByNameRequest"/>
   </con:call>
 </con:operation>

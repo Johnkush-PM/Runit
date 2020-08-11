@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="2ae22eae-0b96-4f5a-8fd3-98718fc2068b" created="3.3.1" activeEnvironment="Default environment" name="Project 4" resourceRoot="" updated="3.3.1" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project updated="3.3.1" resourceRoot="" name="Project 4" id="2ae22eae-0b96-4f5a-8fd3-98718fc2068b" encryptionMode="Not encrypted" created="3.3.1" compositeProjectFormat="1.3" activeEnvironment="Default environment" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
+    <con:setting id="2ae22eae-0b96-4f5a-8fd3-98718fc2068bfileName">Project-4</con:setting>
     <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Report Format(s)" value="XML"/>
   <con:entry key="Host:Port" value=""/>
@@ -38,7 +39,6 @@
   <con:entry key="Tool Args" value=""/>
   <con:entry key="Save Project" value="false"/>
 </xml-fragment>]]></con:setting>
-    <con:setting id="2ae22eae-0b96-4f5a-8fd3-98718fc2068bfileName">Project-4</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>
@@ -48,6 +48,18 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
+  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
+    <con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script>
+  </con:eventHandlers>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to SoapUI Pro tests
@@ -64,18 +76,6 @@
 //   headers.put('auth_token2', token)
 //   request.requestHeaders = headers
 // }</con:script>
-  </con:eventHandlers>
-  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
-    <con:script>// Save all test step results into files
-// Change the directory path in line 5 to a location where you want to store details
-// then uncomment lines 5 to 10
-
-// filePath = 'C:\\tempOutputDirectory\\'
-// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
-// pw = new java.io.PrintWriter(fos)
-// testStepResult.writeTo(pw)
-// pw.close()
-// fos.close()</con:script>
   </con:eventHandlers>
   <con:authRepository/>
   <con:tags/>

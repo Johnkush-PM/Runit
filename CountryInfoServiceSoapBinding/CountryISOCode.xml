@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="04cb3153-f7a6-467b-b879-20fb617cca88" isOneWay="false" action="" name="CountryISOCode" bindingOperationName="CountryISOCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="CountryISOCode" isOneWay="false" inputName="" id="04cb3153-f7a6-467b-b879-20fb617cca88" bindingOperationName="CountryISOCode" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="04cb3153-f7a6-467b-b879-20fb617cca88fileName">CountryISOCode</con:setting>
   </con:settings>
-  <con:call id="17869b4c-5409-4b68-8370-a9b102a7a913" name="CountryISOCode Request">
+  <con:call name="CountryISOCode Request" id="17869b4c-5409-4b68-8370-a9b102a7a913">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -19,6 +19,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryISOCodeRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryISOCodeRequest"/>
   </con:call>
 </con:operation>

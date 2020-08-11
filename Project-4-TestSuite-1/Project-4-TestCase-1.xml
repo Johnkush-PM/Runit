@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase timeout="0" searchProperties="true" name="Project 4 TestCase 1" keepSession="false" id="a077e9e6-f205-4e4a-9992-2d0294e60e8d" failTestCaseOnErrors="true" failOnError="true" discardOkResults="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="a077e9e6-f205-4e4a-9992-2d0294e60e8dfileName">Project-4-TestCase-1</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfLanguagesByName-ListOfLanguagesByName Request" id="2ad1b794-07b4-4cf9-8e23-ab088db38b31">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfLanguagesByName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfLanguagesByName-ListOfLanguagesByName Request" incomingWss="" id="d6c98b4e-628c-4a5a-bcf9-165755bc606c">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfLanguagesByName/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="e0aa2312-ce46-40b5-8e53-cb36897e8984"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfLanguagesByNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfLanguagesByCode-ListOfLanguagesByCode Request" id="e91dc406-9366-44d5-8b92-42ce40f12bfa">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfLanguagesByCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfLanguagesByCode-ListOfLanguagesByCode Request" incomingWss="" id="fdea29e3-cc42-45f3-927e-1f4417da6c93">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfLanguagesByCode/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="075bdc75-7597-438b-a8e5-defd2e01d627"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfLanguagesByCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfCurrenciesByName-ListOfCurrenciesByName Request" id="5057a428-3fb7-46b5-8e10-d5d320074c00">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfCurrenciesByName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfCurrenciesByName-ListOfCurrenciesByName Request" incomingWss="" id="9e002ff4-8b17-4c12-8b3b-26eeaed00ba3">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfCurrenciesByName/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="b7160f71-a682-4a62-9134-47e327882eeb"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCurrenciesByNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfCurrenciesByCode-ListOfCurrenciesByCode Request" id="ddd9bd64-2ec2-4a95-a91b-25735cc3c914">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfCurrenciesByCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfCurrenciesByCode-ListOfCurrenciesByCode Request" incomingWss="" id="fcf1ccef-c50f-4595-8bc0-6efbf3442682">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfCurrenciesByCode/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="4eeaed1a-1643-456d-8920-2ead81d20246"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCurrenciesByCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfCountryNamesGroupedByContinent-ListOfCountryNamesGroupedByContinent Request" id="8c70f0ad-85dc-42c8-ae04-a8ec2c0f2ffa">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfCountryNamesGroupedByContinent</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfCountryNamesGroupedByContinent-ListOfCountryNamesGroupedByContinent Request" incomingWss="" id="49c6210f-49f7-475a-bb9d-09d5814ddf59">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfCountryNamesGroupedByContinent/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="eec8caca-06b2-400a-b6c8-b2e1b746d9c3"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesGroupedByContinentRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfCountryNamesByName-ListOfCountryNamesByName Request" id="98cd7b16-2e73-4f0a-a704-45b19b48a1fc">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfCountryNamesByName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfCountryNamesByName-ListOfCountryNamesByName Request" incomingWss="" id="8d39ac41-1f8c-4a2d-b08e-d3f0734423f7">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfCountryNamesByName/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="47c28aff-24d7-4141-98fc-ae4076ce8625"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesByNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfCountryNamesByCode-ListOfCountryNamesByCode Request" id="0be08700-f4f6-4904-95ef-bb00f1c4b5b0">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfCountryNamesByCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfCountryNamesByCode-ListOfCountryNamesByCode Request" incomingWss="" id="f9ee6e13-db89-4fff-9fb2-c266ce09ea5e">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfCountryNamesByCode/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="0324fb32-2044-483a-95c0-92819681846b"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfCountryNamesByCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfContinentsByName-ListOfContinentsByName Request" id="a993ca19-c3c1-429b-9f66-62450706e6ce">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfContinentsByName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfContinentsByName-ListOfContinentsByName Request" incomingWss="" id="7dfcc6ca-b44b-4219-9172-295f1b4b3326">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfContinentsByName/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="d329c6ab-5f5d-485d-b069-3096aa8b3fb1"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfContinentsByNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding ListOfContinentsByCode-ListOfContinentsByCode Request" id="b483f28f-ffbc-4986-be89-e1f1f5e97c3e">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>ListOfContinentsByCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding ListOfContinentsByCode-ListOfContinentsByCode Request" incomingWss="" id="1440d2dc-5819-45fa-a7df-298501ed2b04">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:ListOfContinentsByCode/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="b36482ec-d014-40f4-983d-b5c3a0d9d01b"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfContinentsByCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding LanguageName-LanguageName Request" id="e882f328-dad8-4274-841f-22365036ea80">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>LanguageName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding LanguageName-LanguageName Request" incomingWss="" id="0f03aa4f-c6d7-49cf-9147-98f0ba0c057c">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:LanguageName>\r
+         <web:sISOCode>?</web:sISOCode>\r
+      </web:LanguageName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="41a4352f-e825-46eb-acdd-e50bf64d8ca8"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/LanguageNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding LanguageISOCode-LanguageISOCode Request" id="787901e3-101e-49ef-9e60-8f419aa5299a">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>LanguageISOCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding LanguageISOCode-LanguageISOCode Request" incomingWss="" id="a3bfbac6-8bd7-4031-acac-a60a5d20e556">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:LanguageISOCode>\r
+         <web:sLanguageName>?</web:sLanguageName>\r
+      </web:LanguageISOCode>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="df84afd0-68a7-4cb8-8c47-cb831f8233ef"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/LanguageISOCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding FullCountryInfoAllCountries-FullCountryInfoAllCountries Request" id="63989900-0b54-49ca-88d8-49dd71dd3864">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>FullCountryInfoAllCountries</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding FullCountryInfoAllCountries-FullCountryInfoAllCountries Request" incomingWss="" id="596c523a-6a4b-4bbf-9774-37aad2348c06">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:FullCountryInfoAllCountries/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="3c6263c2-aace-4c40-b5d0-98352650cd41"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/FullCountryInfoAllCountriesRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding FullCountryInfo-FullCountryInfo Request" id="8be9632d-569e-4622-8c45-6a0eeb822b63">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>FullCountryInfo</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding FullCountryInfo-FullCountryInfo Request" incomingWss="" id="d332e48e-b1fb-43fe-9710-5fa889908581">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:FullCountryInfo>\r
+         <web:sCountryISOCode>?</web:sCountryISOCode>\r
+      </web:FullCountryInfo>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="d12857a4-816b-472b-9bf1-82f9ad9433ce"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/FullCountryInfoRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CurrencyName-CurrencyName Request" id="ec0e06f6-4310-417b-bcfb-bd7ab5d34e4e">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CurrencyName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CurrencyName-CurrencyName Request" incomingWss="" id="836a2b7b-0727-437a-abc9-ab8d0254fb8f">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CurrencyName>\r
+         <web:sCurrencyISOCode>?</web:sCurrencyISOCode>\r
+      </web:CurrencyName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="28693d9d-fcfb-4554-9463-32da18b436de"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CurrencyNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountryName-CountryName Request" id="9c0676bf-8ac2-476c-8958-ad888def4261">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountryName</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountryName-CountryName Request" incomingWss="" id="296f66d8-5fa2-47b8-b70a-9d6b10daf495">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountryName>\r
+         <web:sCountryISOCode>?</web:sCountryISOCode>\r
+      </web:CountryName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="62a559ad-6800-418d-bc6e-534577308910"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryNameRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountryISOCode-CountryISOCode Request" id="ea5963f1-61c3-4d58-a6f7-6fa5cb339aa2">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountryISOCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountryISOCode-CountryISOCode Request" incomingWss="" id="e4590394-85c5-4571-829f-d5b67ff7b924">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountryISOCode>\r
+         <web:sCountryName>?</web:sCountryName>\r
+      </web:CountryISOCode>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="52497076-b66a-4f4d-bb08-4f518adabb04"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryISOCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountryIntPhoneCode-CountryIntPhoneCode Request" id="cdb1a384-8fa8-4156-92fc-1abf724c6a71">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountryIntPhoneCode</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountryIntPhoneCode-CountryIntPhoneCode Request" incomingWss="" id="fcfd61c3-138f-4be3-abb6-fdc3c0aaaf8e">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountryIntPhoneCode>\r
+         <web:sCountryISOCode>?</web:sCountryISOCode>\r
+      </web:CountryIntPhoneCode>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="c349d1df-7c3a-47ba-8115-df25fe077e9a"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryIntPhoneCodeRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountryFlag-CountryFlag Request" id="48c31114-c515-4a47-af8a-c61f834ec104">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountryFlag</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountryFlag-CountryFlag Request" incomingWss="" id="3141f9c1-71ac-4405-bea1-42b8b3c7eb4e">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountryFlag>\r
+         <web:sCountryISOCode>?</web:sCountryISOCode>\r
+      </web:CountryFlag>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="e3b3ea83-2449-47af-b3e6-15f41dbb56f8"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryFlagRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountryCurrency-CountryCurrency Request" id="cfd3f217-6ec6-44f8-85d0-f822efb0adf7">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountryCurrency</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountryCurrency-CountryCurrency Request" incomingWss="" id="86dc8d82-5446-4250-a31b-c5d6414da8ae">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountryCurrency>\r
+         <web:sCountryISOCode>?</web:sCountryISOCode>\r
+      </web:CountryCurrency>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="aed3d7da-00b0-46ec-93e2-76be891a3c11"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountryCurrencyRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CountriesUsingCurrency-CountriesUsingCurrency Request" id="5c6513c1-f364-401d-912f-8a802db39100">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CountriesUsingCurrency</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CountriesUsingCurrency-CountriesUsingCurrency Request" incomingWss="" id="3e63b6e4-598e-4aa0-9125-b2fe9e013402">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CountriesUsingCurrency>\r
+         <web:sISOCurrencyCode>?</web:sISOCurrencyCode>\r
+      </web:CountriesUsingCurrency>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="a1a200fc-bbee-4e11-9a47-a4e9169a0a96"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CountriesUsingCurrencyRequest"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" name="CountryInfoServiceSoapBinding CapitalCity-CapitalCity Request" id="beb2154c-64f8-4b73-bfb9-f4a61cd8b3f7">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CountryInfoServiceSoapBinding</con:interface>
+      <con:operation>CapitalCity</con:operation>
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="CountryInfoServiceSoapBinding CapitalCity-CapitalCity Request" incomingWss="" id="cb36721c-8ff6-4577-8f98-e685ed3301ef">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CapitalCity>
+         <web:sCountryISOCode>US</web:sCountryISOCode>
+      </web:CapitalCity>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" name="SOAP Response" id="b12f8213-0729-4708-8cbe-c7c4cdda2f19"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CapitalCityRequest"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

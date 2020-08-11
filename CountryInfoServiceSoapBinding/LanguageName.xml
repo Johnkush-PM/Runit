@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="5e11f35b-4bbd-409d-aa60-ae0627c2a162" isOneWay="false" action="" name="LanguageName" bindingOperationName="LanguageName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="LanguageName" isOneWay="false" inputName="" id="5e11f35b-4bbd-409d-aa60-ae0627c2a162" bindingOperationName="LanguageName" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="5e11f35b-4bbd-409d-aa60-ae0627c2a162fileName">LanguageName</con:setting>
   </con:settings>
-  <con:call id="f1c9cc58-b93f-4945-b21e-93c782b58fbd" name="LanguageName Request">
+  <con:call name="LanguageName Request" id="f1c9cc58-b93f-4945-b21e-93c782b58fbd">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -19,6 +19,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/LanguageNameRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/LanguageNameRequest"/>
   </con:call>
 </con:operation>

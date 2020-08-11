@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="94912c96-202a-47de-b7e3-ca2f06e72f01" isOneWay="false" action="" name="ListOfContinentsByCode" bindingOperationName="ListOfContinentsByCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="ListOfContinentsByCode" isOneWay="false" inputName="" id="94912c96-202a-47de-b7e3-ca2f06e72f01" bindingOperationName="ListOfContinentsByCode" anonymous="optional" action="" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="94912c96-202a-47de-b7e3-ca2f06e72f01fileName">ListOfContinentsByCode</con:setting>
   </con:settings>
-  <con:call id="99708bbf-fddb-4f37-afd4-7edc54b0457e" name="ListOfContinentsByCode Request">
+  <con:call name="ListOfContinentsByCode Request" id="99708bbf-fddb-4f37-afd4-7edc54b0457e">
     <con:settings/>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint>
@@ -17,6 +17,6 @@
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfContinentsByCodeRequest"/>
+    <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/ListOfContinentsByCodeRequest"/>
   </con:call>
 </con:operation>
