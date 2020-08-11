@@ -59,6 +59,11 @@
       </web:CapitalCity>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
+        <con:assertion type="Response SLA Assertion" id="8f3d44ed-0a41-45fb-96cd-46b267705474" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
         <con:credentials>
           <con:username>d</con:username>
           <con:password>ejf</con:password>
