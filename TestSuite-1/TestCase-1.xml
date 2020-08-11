@@ -22,15 +22,10 @@
       </web:CapitalCity>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
-        <con:assertion type="Valid HTTP Status Codes" id="75994671-8cf6-4201-bc08-27d76160a34a" name="Valid HTTP Status Codes">
-          <con:settings/>
+        <con:assertion type="Response SLA Assertion" id="b9b4a365-04d4-4d5b-81d7-66602cbb1fc9" name="Response SLA">
           <con:configuration>
-            <codes>200</codes>
+            <SLA>200</SLA>
           </con:configuration>
-        </con:assertion>
-        <con:assertion type="SOAP Fault Assertion" id="96b93902-b541-4bd7-96a8-e75e2e202c45" name="Not SOAP Fault"/>
-        <con:assertion type="Schema Compliance" id="59f3cfbe-715f-4f76-9378-c1ee5cf8d613" name="Schema Compliance">
-          <con:configuration/>
         </con:assertion>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
